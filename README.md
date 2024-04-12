@@ -27,9 +27,4 @@ This project focuses on developing predictive models for the copper industry to 
   3.Perform feature engineering, scaling, and transformation steps used for training ML model.
   4.Predict new data from Streamlit and display the output.
 ## Dependencies:
-Python 3.x
-Pandas
-NumPy
-Scikit-learn
-Seaborn
-Streamlit
+Python 3.x,Pandas, NumPy, Scikit-learn, Seaborn, Streamlit
