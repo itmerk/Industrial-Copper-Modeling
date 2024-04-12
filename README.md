@@ -1,17 +1,14 @@
-Project Title: Predictive Modeling for the Copper Industry
+## Project Title: Predictive Modeling for the Copper Industry
 
 Overview:
 This project focuses on developing predictive models for the copper industry to address challenges related to sales prediction and lead classification. The dataset contains various variables including continuous and categorical features. The project involves data preprocessing, exploratory data analysis (EDA), feature engineering, model building, and creating a user-friendly web application using Streamlit for model prediction.
 
 Steps:
-
-Data Understanding:
-
-Identify variable types (continuous, categorical) and their distributions.
-Treat rubbish values in 'Material_Reference' by converting '00000' values into null.
-Treat reference columns as categorical variables.
+  Data Understanding:
+  1. Identify variable types (continuous, categorical) and their distributions.
+  2. Treat rubbish values in 'Material_Reference' by converting '00000' values into null.
+  3. Treat reference columns as categorical variables.
 Data Preprocessing:
-
 Handle missing values using mean/median/mode.
 Treat outliers using IQR or Isolation Forest from the sklearn library.
 Identify skewness and treat it with appropriate transformations (e.g., log transformation, boxcox transformation).
